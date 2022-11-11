@@ -25,7 +25,7 @@
       "name": "Mixed",
       "public": false,
       "type": "NORMAL",
- //     "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/"}] }
+      "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/"}] }
     },
     "public": false,
     "links": {
