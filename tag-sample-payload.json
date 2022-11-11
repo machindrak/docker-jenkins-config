@@ -9,7 +9,8 @@
     "active": true,
     "slug": "machindra",
     "type": "NORMAL",
-//    "links": { "self": [{ "href": "http://localhost:7990/users/tomasbjerre" }] }
+//    "links": { "self": [{ "href": "http://localhost:7990/users/tomasbjerre" 
+  }] }
   },
   "repository": {
     "slug": "docker-jenkins-config",
@@ -25,7 +26,8 @@
       "name": "Mixed",
       "public": false,
       "type": "NORMAL",
- //     "links": { "self": [{ "href": "http://localhost:7990/projects/MIX" }] }
+ //     "links": { "self": [{ "href": "http://localhost:7990/projects/MIX" 
+    }] }
     },
     "public": false,
     "links": {
@@ -41,7 +43,7 @@
       ],
       "self": [
         {
-          "href": "http://localhost:7990/projects/MIX/repos/sandbox-repo/browse"
+          "href": "https://github.com/machindrak/docker-jenkins-config.git"
         }
       ]
     }
