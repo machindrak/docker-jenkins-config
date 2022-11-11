@@ -3,8 +3,8 @@ node {
   pipelineTriggers([
    [$class: 'GenericTrigger',
     genericVariables: [
-     [ key: 'committer_name', value: '$.actor.displayName' ],
-     [ key: 'committer_email', value: '$.actor.emailAddress' ],
+     [ key: 'committer_name', value: '$.MPK.displayName' ],
+     [ key: 'committer_email', value: '$.MPK.emailAddress' ],
      [ key: 'ref', value: '$.changes[0].refId'],
      [ key: 'tag', value: '$.changes[0].refId', regexpFilter: 'refs/tags/'],
      [ key: 'commit', value: '$.changes[0].toHash' ],
