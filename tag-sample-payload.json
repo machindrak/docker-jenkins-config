@@ -9,8 +9,7 @@
     "active": true,
     "slug": "machindra",
     "type": "NORMAL",
-//    "links": { "self": [{ "href": "http://localhost:7990/users/tomasbjerre" 
-  }] }
+//    "links": { "self": [{ "href": "http://localhost:7990/users/tomasbjerre" }] }
   },
   "repository": {
     "slug": "docker-jenkins-config",
@@ -26,18 +25,17 @@
       "name": "Mixed",
       "public": false,
       "type": "NORMAL",
- //     "links": { "self": [{ "href": "http://localhost:7990/projects/MIX" 
-    }] }
+ //     "links": { "self": [{ "href": "http://localhost:7990/projects/MIX"}] }
     },
     "public": false,
     "links": {
       "clone": [
         {
-          "href": "http://localhost:7990/scm/mix/sandbox-repo.git",
+          "href": "https://github.com/machindrak/docker-jenkins-config.git",
           "name": "http"
         },
         {
-          "href": "ssh://git@localhost:7999/mix/sandbox-repo.git",
+          "href": "git@github.com:machindrak/docker-jenkins-config.git",
           "name": "ssh"
         }
       ],
