@@ -9,7 +9,7 @@
     "active": true,
     "slug": "machindra",
     "type": "NORMAL",
-    "links": { "self": [{ "href": "http://localhost:7990/users/tomasbjerre" }] }
+    "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/" }] }
   },
   "repository": {
     "slug": "docker-jenkins-config",
@@ -25,7 +25,7 @@
       "name": "Mixed",
       "public": false,
       "type": "NORMAL",
- //     "links": { "self": [{ "href": "http://localhost:7990/projects/MIX"}] }
+ //     "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/"}] }
     },
     "public": false,
     "links": {
