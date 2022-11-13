@@ -48,7 +48,7 @@
   },
   "changes": [
     {
-      "ref": { "id": "refs/tags/1.2", "displayId": "1.2", "type": "TAG" },
+      "ref": { "id": "refs/tags/v1.2", "displayId": "v1.2", "type": "TAG" },
       "refId": "refs/tags/1.2",
       "fromHash": "0000000000000000000000000000000000000000",
       "toHash": "187ccb978925d6ccdf948a58bccaf878cce046b9",
