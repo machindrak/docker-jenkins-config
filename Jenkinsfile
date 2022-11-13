@@ -25,6 +25,7 @@ node {
    ]
   ])
  ])
+ 
 
  stage("Prepare") {
   deleteDir()
