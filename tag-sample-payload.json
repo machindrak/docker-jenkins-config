@@ -9,7 +9,7 @@
     "active": true,
     "slug": "machindra",
     "type": "NORMAL",
-    "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/" }] }
+    "links": { "self": [{ "href": "http://13.127.247.225:8080/job/pipeline_trigger/" }] }
   },
   "repository": {
     "slug": "docker-jenkins-config",
@@ -25,7 +25,7 @@
       "name": "Mixed",
       "public": false,
       "type": "NORMAL",
-      "links": { "self": [{ "href": "http://65.0.18.211:8080/job/test_trigger/"}] }
+      "links": { "self": [{ "href": "http://13.127.247.225:8080/job/pipeline_trigger/"}] }
     },
     "public": false,
     "links": {
@@ -34,10 +34,6 @@
           "href": "https://github.com/machindrak/docker-jenkins-config.git",
           "name": "http"
         },
-        {
-          "href": "git@github.com:machindrak/docker-jenkins-config.git",
-          "name": "ssh"
-        }
       ],
       "self": [
         {
@@ -48,10 +44,10 @@
   },
   "changes": [
     {
-      "ref": { "id": "refs/tags/v1.2", "displayId": "v1.2", "type": "TAG" },
+      "ref": { "id": "refs/tags/v1.3", "displayId": "v1.3", "type": "TAG" },
       "refId": "refs/tags/1.2",
       "fromHash": "0000000000000000000000000000000000000000",
-      "toHash": "187ccb978925d6ccdf948a58bccaf878cce046b9",
+      "toHash": "d5ba20c475c8cc035a5cacc7a9bc1e5cadf88194",
       "type": "ADD"
     }
   ]
